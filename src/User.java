@@ -10,5 +10,6 @@ public abstract class User {
     private String password;
 
     public void logIn(String userName, String password){}
+
     public void changePassword(String newPassword, String oldPassword){}
 }

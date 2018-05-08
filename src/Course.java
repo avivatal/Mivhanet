@@ -5,5 +5,4 @@ public class Course {
     private String courseName;
     private String syllabus;
     private List<Question> questionsRepository;
-    private List<InstructionEmployee> currentCourseStaff;
 }

@@ -16,7 +16,7 @@ public class InstructionEmployee extends User{
 
     public void commentQuestion(Question question, String comment){}
 
-    public void submitStudentsTestAnswer(Answer[] studentsAnswers, String studentId){}
+    public void submitStudentsTestAnswer(String courseid, Semester semester, Test.moed moed, List<Answer> studentsAnswers, String studentId){}
 
     public List<Question> viewQuestionsRepository(String courseId){ throw new NotImplementedException(); }
 }

@@ -3,9 +3,9 @@ import java.util.List;
 
 public class Reception extends User {
 
-    public void openCourse(String courseId, Enum semester, String year, List<Student> registersStudents){}
+    public void openCourse(String courseId, Semester semester, List<Student> registeredStudents){}
 
-    public void setTestDate(String coureseId, Test.moed testMoed, Date testDate){}
+    public void setTestDate(String coureseId, Semester semester, Test.moed testMoed, Date testDate){}
 
     public void manageCourseStaff(String courseId, List<InstructionEmployee> courseStaffList){}
 
