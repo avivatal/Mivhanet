@@ -5,7 +5,7 @@ public class Reception extends User {
 
     public void openCourseInSemester(String courseId, Semester semester, List<Student> registeredStudents, CourseStaff courseStaff){}
 
-    public void addStudentToCourse(String courseId, Student studentToAdd){}
+    public void addStudentToCourse(String courseId, Semester semester, Student studentToAdd){}
 
     public void setTestDate(String coureseId, Semester semester, Test.moed testMoed, Date testDate){}
 
