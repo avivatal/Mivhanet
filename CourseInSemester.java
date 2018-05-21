@@ -4,7 +4,7 @@ public class CourseInSemester {
 
     private Course course;
     private Semester semester;
-    private Test [] courseTests;
+    private TestDate [] courseTestsDates;
     private CourseStaff staff;
     private ArrayList<Student> students;
 }
